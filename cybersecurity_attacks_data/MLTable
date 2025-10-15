@@ -1,0 +1,8 @@
+# MLTable definition file
+
+paths:
+  - file: ./cleaned_cybersecurity_attacks.csv
+transformations:
+  - read_delimited:
+        delimiter: ','
+        encoding: 'ascii'
