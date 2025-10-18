@@ -7,6 +7,5 @@ Clean up the python notebook
 - Fix any numbering in the markdown headers
 - Remove any unused imports
 - Remove any commented out code
-- Ensure consistent naming (e.g., target_variable vs target_column)
 - Ensure all variables are defined before use
 - Ensure all functions are defined before use

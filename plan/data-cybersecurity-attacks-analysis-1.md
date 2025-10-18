@@ -2,7 +2,7 @@
 goal: Cybersecurity Attacks Data Analysis and Prediction
 version: 1.0
 date_created: 2025-10-15
-last_updated: 2025-10-15
+last_updated: 2025-10-17
 owner: Data Science Team
 status: 'In progress'
 tags: ['cybersecurity', 'data-analysis', 'machine-learning', 'classification', 'prediction']
@@ -14,7 +14,7 @@ tags: ['cybersecurity', 'data-analysis', 'machine-learning', 'classification', '
 
 This implementation plan outlines the steps necessary to analyze the cybersecurity attacks dataset and develop machine learning models to predict attack types and severity levels. The project will follow a structured data science approach including exploratory data analysis, preprocessing, feature engineering, and model development using various algorithms. Each step will be carefully documented for reproducibility and evaluation.
 
-**Current Status:** Phase 1 (EDA), Phase 2 (Data Preprocessing and Feature Engineering), and Phase 3 (Baseline Modeling and Linear Methods) completed. Ready to start Phase 4 (Advanced Machine Learning Models). Phase 7 (Comprehensive Reporting) has been added to generate detailed reports for all phases after completion.
+**Current Status:** Phases 1 and 2 are complete. Phase 3 (Baseline Modeling and Linear Methods) was rebuilt on 2025-10-17 with reproducible notebooks and artifacts. Phase 4 (Advanced Machine Learning Models) is now underway with stepwise execution in `notebooks/04_advanced_models.ipynb`. Phase 7 (Comprehensive Reporting) remains scheduled for post-modeling consolidation.
 
 ## 1. Requirements & Constraints
 
@@ -65,37 +65,47 @@ This implementation plan outlines the steps necessary to analyze the cybersecuri
 
 ### Implementation Phase 3: Baseline Modeling and Linear Methods
 
-- GOAL-003: Develop baseline models and implement linear modeling approaches
+GOAL-003: Develop baseline models and implement linear modeling approaches with reproducible, well-documented notebooks
 
-| Task | Description | Completed | Date |
-|------|-------------|-----------|------|
-| TASK-019 | Create notebook for linear modeling approaches | ✅ | 2025-10-15 |
-| TASK-020 | Implement simple baseline models (frequency-based, random) | ✅ | 2025-10-15 |
-| TASK-021 | Develop Linear Regression models for appropriate targets | ✅ | 2025-10-15 |
-| TASK-022 | Implement Lasso Regression with cross-validation | ✅ | 2025-10-15 |
-| TASK-023 | Implement Ridge Regression with cross-validation | ✅ | 2025-10-15 |
-| TASK-024 | Implement ElasticNet Regression with cross-validation | ✅ | 2025-10-15 |
-| TASK-025 | Apply Forward Selection Regression | ✅ | 2025-10-15 |
-| TASK-026 | Apply Backward Selection Regression | ✅ | 2025-10-15 |
-| TASK-027 | Develop Principal Component Regression (PCR) models | ✅ | 2025-10-15 |
-| TASK-028 | Develop Partial Least Squares Regression (PLSR) models | ✅ | 2025-10-15 |
-| TASK-029 | Evaluate and compare all linear models using appropriate metrics | ✅ | 2025-10-15 |
+| Task      | Description                                                                                   | Completed | Date       |
+|-----------|----------------------------------------------------------------------------------------------|-----------|------------|
+| TASK-019  | Create notebook for linear modeling approaches                                               | ✅        | 2025-10-17 |
+| TASK-020  | Implement simple baseline models (mean, median, random)                                      | ✅        | 2025-10-17 |
+| TASK-021  | Develop Linear Regression models for severity prediction, with robust data cleaning           | ✅        | 2025-10-17 |
+| TASK-022  | Implement Lasso Regression with cross-validation and feature selection                        | ✅        | 2025-10-17 |
+| TASK-023  | Implement Ridge Regression with cross-validation and coefficient analysis                     | ✅        | 2025-10-17 |
+| TASK-024  | Implement ElasticNet Regression with cross-validation and feature selection                   | ✅        | 2025-10-17 |
+| TASK-025  | Apply Forward Selection Regression to identify top features                                   | ✅        | 2025-10-17 |
+| TASK-026  | Apply Backward Selection Regression to identify top features                                  | ✅        | 2025-10-17 |
+| TASK-027  | Develop Principal Component Regression (PCR) models and analyze variance explained            | ✅        | 2025-10-17 |
+| TASK-028  | Develop Partial Least Squares Regression (PLSR) models and compare performance                | ✅        | 2025-10-17 |
+| TASK-029  | Evaluate and compare all linear models using RMSE, MAE, R²; save results and visualizations   | ✅        | 2025-10-17 |
+
+**Notes:**
+- All tasks now use a cleaned, reproducible notebook (`notebooks/03_linear_models.ipynb`) with clear markdown, defined variables, and no commented or unused code.
+- Model comparison and feature importance are visualized and saved to the appropriate reports directory.
+- Results are documented for future advanced modeling phases.
 
 ### Implementation Phase 4: Advanced Machine Learning Models
 
-- GOAL-004: Implement and evaluate more complex machine learning algorithms
+- GOAL-004: Implement and evaluate advanced machine learning pipelines for attack classification and severity regression with reproducible outputs
 
 | Task | Description | Completed | Date |
 |------|-------------|-----------|------|
-| TASK-030 | Create notebook for advanced ML models | | |
-| TASK-031 | Develop Support Vector Machines (SVM) models with various kernels | | |
-| TASK-032 | Implement Decision Tree models with different depths | | |
-| TASK-033 | Develop Random Forest models | | |
-| TASK-034 | Implement Gradient Boosting models | | |
-| TASK-035 | Apply XGBoost algorithm with default parameters | | |
-| TASK-036 | Develop K-Nearest Neighbors (KNN) models | | |
-| TASK-037 | Compare performance of all advanced models | | |
-| TASK-038 | Analyze feature importance from tree-based models | | |
+| TASK-030 | Duplicate modeling template to `notebooks/04_advanced_models.ipynb` and document objectives, assumptions, and data sources | In progress | 2025-10-17 |
+| TASK-031 | Load processed train/validation/test splits with enforced data types; log dataset shapes and class distributions | In progress | 2025-10-17 |
+| TASK-032 | Define shared preprocessing pipeline (imputation, scaling, encoding) via `ColumnTransformer` for reuse across models | In progress | 2025-10-17 |
+| TASK-033 | Train Support Vector Machine classifiers (linear, RBF) using `Pipeline` + `GridSearchCV`; capture validation metrics | | |
+| TASK-034 | Train Decision Tree and Random Forest classifiers; persist feature importance scores and confusion matrices | | |
+| TASK-035 | Train Gradient Boosting and XGBoost classifiers; export importance arrays suitable for SHAP analysis | | |
+| TASK-036 | Train K-Nearest Neighbors classifier across k ∈ {3,5,7,9}; log accuracy, precision, recall, F1, balanced accuracy | | |
+| TASK-037 | Extend pipelines for severity regression (SVR, tree ensembles, boosting, KNN); record RMSE, MAE, R² | | |
+| TASK-038 | Consolidate all metrics into `models/phase4_metrics.csv` and generate comparative visualizations in `reports/visualizations/phase4/` | | |
+
+**Notes:**
+- Phase 4 execution occurs entirely within `notebooks/04_advanced_models.ipynb`, leveraging the Phase 3 feature set.
+- Classification and regression metrics will be appended to a unified `models/phase4_metrics.csv` schema `[model_id,target,metric_name,metric_value,split]`.
+- Visual assets (bar charts, confusion matrices) will be saved under `reports/visualizations/phase4/` for reuse in Phase 7 reporting.
 
 ### Implementation Phase 5: Model Optimization and Hyperparameter Tuning
 
@@ -191,6 +201,9 @@ This implementation plan outlines the steps necessary to analyze the cybersecuri
 - **TEST-005**: Model robustness testing with different random seeds
 - **TEST-006**: Test predictions on new/unseen data samples
 - **TEST-007**: Verify feature importance consistency across multiple runs
+- **TEST-008**: Validate Phase 4 preprocessing pipelines transform train/validation/test splits without introducing NaN values
+- **TEST-009**: Confirm `models/phase4_metrics.csv` contains required columns and captures results for every trained model
+- **TEST-010**: Re-run `notebooks/04_advanced_models.ipynb` top-to-bottom to ensure deterministic, warning-free execution
 
 ## 7. Risks & Assumptions
 
