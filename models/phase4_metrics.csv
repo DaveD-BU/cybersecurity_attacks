@@ -1,0 +1,256 @@
+model_id,target,metric_name,metric_value,split
+Balanced Logistic Regression,attack_success,accuracy,0.5195,validation
+Balanced Logistic Regression,attack_success,precision,0.6802973977695167,validation
+Balanced Logistic Regression,attack_success,recall,0.5180222683525193,validation
+Balanced Logistic Regression,attack_success,f1,0.5881722734090422,validation
+Balanced Logistic Regression,attack_success,roc_auc,0.5310317853521922,validation
+Balanced Logistic Regression,attack_success,accuracy,0.503125,test
+Balanced Logistic Regression,attack_success,precision,0.6594274432379073,test
+Balanced Logistic Regression,attack_success,recall,0.50730966394532,test
+Balanced Logistic Regression,attack_success,f1,0.5734520871338127,test
+Balanced Logistic Regression,attack_success,roc_auc,0.5082792561795788,test
+Balanced Logistic Regression,attack_success,accuracy,0.4924166666666666,cv
+Balanced Logistic Regression,attack_success,f1,0.5644968455527327,cv
+Balanced Logistic Regression,attack_success,precision,0.6542786285087405,cv
+Balanced Logistic Regression,attack_success,recall,0.496447657969192,cv
+Balanced Logistic Regression,attack_success,roc_auc,0.4931031784419496,cv
+Random Forest Ensemble,attack_success,accuracy,1.0,validation
+Random Forest Ensemble,attack_success,precision,1.0,validation
+Random Forest Ensemble,attack_success,recall,1.0,validation
+Random Forest Ensemble,attack_success,f1,1.0,validation
+Random Forest Ensemble,attack_success,roc_auc,1.0,validation
+Random Forest Ensemble,attack_success,accuracy,0.65675,test
+Random Forest Ensemble,attack_success,precision,0.6580167982950984,test
+Random Forest Ensemble,attack_success,recall,0.9965824947788114,test
+Random Forest Ensemble,attack_success,f1,0.7926608275445485,test
+Random Forest Ensemble,attack_success,roc_auc,0.5156124357064202,test
+Random Forest Ensemble,attack_success,accuracy,0.6619583333333334,cv
+Random Forest Ensemble,attack_success,f1,0.7962528050942826,cv
+Random Forest Ensemble,attack_success,precision,0.6629171918689547,cv
+Random Forest Ensemble,attack_success,recall,0.9967305878654512,cv
+Random Forest Ensemble,attack_success,roc_auc,0.5037253892640425,cv
+Gradient Boosting,attack_success,accuracy,0.66675,validation
+Gradient Boosting,attack_success,precision,0.6654934003771213,validation
+Gradient Boosting,attack_success,recall,0.9990564257407056,validation
+Gradient Boosting,attack_success,f1,0.7988531763995775,validation
+Gradient Boosting,attack_success,roc_auc,0.6576284991985033,validation
+Gradient Boosting,attack_success,accuracy,0.657875,test
+Gradient Boosting,attack_success,precision,0.6587202007528231,test
+Gradient Boosting,attack_success,recall,0.9967723561799886,test
+Gradient Boosting,attack_success,f1,0.7932310946589106,test
+Gradient Boosting,attack_success,roc_auc,0.5038073359027493,test
+Gradient Boosting,attack_success,accuracy,0.6597500000000001,cv
+Gradient Boosting,attack_success,f1,0.794266005256883,cv
+Gradient Boosting,attack_success,precision,0.6626732432524791,cv
+Gradient Boosting,attack_success,recall,0.9910719899402703,cv
+Gradient Boosting,attack_success,roc_auc,0.5059543432583714,cv
+XGBoost Gradient Boosted Trees,attack_success,accuracy,0.662375,validation
+XGBoost Gradient Boosted Trees,attack_success,precision,0.662375,validation
+XGBoost Gradient Boosted Trees,attack_success,recall,1.0,validation
+XGBoost Gradient Boosted Trees,attack_success,f1,0.7969020227084743,validation
+XGBoost Gradient Boosted Trees,attack_success,roc_auc,0.685495730020802,validation
+XGBoost Gradient Boosted Trees,attack_success,accuracy,0.658375,test
+XGBoost Gradient Boosted Trees,attack_success,precision,0.658375,test
+XGBoost Gradient Boosted Trees,attack_success,recall,1.0,test
+XGBoost Gradient Boosted Trees,attack_success,f1,0.7940001507499812,test
+XGBoost Gradient Boosted Trees,attack_success,roc_auc,0.5056743758176181,test
+XGBoost Gradient Boosted Trees,attack_success,accuracy,0.6627083333333333,cv
+XGBoost Gradient Boosted Trees,attack_success,f1,0.7971432151359479,cv
+XGBoost Gradient Boosted Trees,attack_success,precision,0.6627083333333333,cv
+XGBoost Gradient Boosted Trees,attack_success,recall,1.0,cv
+XGBoost Gradient Boosted Trees,attack_success,roc_auc,0.5031017240840312,cv
+Support Vector Machine (RBF),attack_success,accuracy,0.337625,validation
+Support Vector Machine (RBF),attack_success,precision,0.0,validation
+Support Vector Machine (RBF),attack_success,recall,0.0,validation
+Support Vector Machine (RBF),attack_success,f1,0.0,validation
+Support Vector Machine (RBF),attack_success,roc_auc,0.0,validation
+Support Vector Machine (RBF),attack_success,accuracy,0.341625,test
+Support Vector Machine (RBF),attack_success,precision,0.0,test
+Support Vector Machine (RBF),attack_success,recall,0.0,test
+Support Vector Machine (RBF),attack_success,f1,0.0,test
+Support Vector Machine (RBF),attack_success,roc_auc,0.4838232250720421,test
+Support Vector Machine (RBF),attack_success,accuracy,0.3372916666666666,cv
+Support Vector Machine (RBF),attack_success,f1,0.0,cv
+Support Vector Machine (RBF),attack_success,precision,0.0,cv
+Support Vector Machine (RBF),attack_success,recall,0.0,cv
+Support Vector Machine (RBF),attack_success,roc_auc,0.5047182361143285,cv
+Balanced Logistic Regression,attack_success,accuracy,0.4924166666666666,cv
+Balanced Logistic Regression,attack_success,precision,0.6542786285087405,cv
+Balanced Logistic Regression,attack_success,recall,0.496447657969192,cv
+Balanced Logistic Regression,attack_success,f1,0.5644968455527327,cv
+Balanced Logistic Regression,attack_success,roc_auc,0.4931031784419496,cv
+Balanced Logistic Regression,attack_success,balanced_accuracy,0.490472130405226,cv
+Balanced Logistic Regression,attack_success,accuracy,0.5195,validation
+Balanced Logistic Regression,attack_success,balanced_accuracy,0.5202106898963633,validation
+Balanced Logistic Regression,attack_success,precision,0.6802973977695167,validation
+Balanced Logistic Regression,attack_success,recall,0.5180222683525193,validation
+Balanced Logistic Regression,attack_success,f1,0.5881722734090422,validation
+Balanced Logistic Regression,attack_success,roc_auc,0.5310317853521922,validation
+Balanced Logistic Regression,attack_success,accuracy,0.503125,test
+Balanced Logistic Regression,attack_success,balanced_accuracy,0.5011850185807829,test
+Balanced Logistic Regression,attack_success,precision,0.6594274432379073,test
+Balanced Logistic Regression,attack_success,recall,0.50730966394532,test
+Balanced Logistic Regression,attack_success,f1,0.5734520871338127,test
+Balanced Logistic Regression,attack_success,roc_auc,0.5082792561795788,test
+Decision Tree Classifier,attack_success,accuracy,0.512,cv
+Decision Tree Classifier,attack_success,precision,0.6682941982537163,cv
+Decision Tree Classifier,attack_success,recall,0.5246149009745362,cv
+Decision Tree Classifier,attack_success,f1,0.5839335348836883,cv
+Decision Tree Classifier,attack_success,roc_auc,0.506687289164218,cv
+Decision Tree Classifier,attack_success,balanced_accuracy,0.5059146154038833,cv
+Decision Tree Classifier,attack_success,accuracy,0.660125,validation
+Decision Tree Classifier,attack_success,balanced_accuracy,0.6957935801876375,validation
+Decision Tree Classifier,attack_success,precision,0.8553719008264463,validation
+Decision Tree Classifier,attack_success,recall,0.5859596150217022,validation
+Decision Tree Classifier,attack_success,f1,0.6954866166424012,validation
+Decision Tree Classifier,attack_success,roc_auc,0.798633008582159,validation
+Decision Tree Classifier,attack_success,accuracy,0.484625,test
+Decision Tree Classifier,attack_success,balanced_accuracy,0.5020103911777041,test
+Decision Tree Classifier,attack_success,precision,0.6604038137969714,test
+Decision Tree Classifier,attack_success,recall,0.4471235997721663,test
+Decision Tree Classifier,attack_success,f1,0.5332276689686404,test
+Decision Tree Classifier,attack_success,roc_auc,0.5069436961950816,test
+Random Forest Ensemble,attack_success,accuracy,0.6619583333333334,cv
+Random Forest Ensemble,attack_success,precision,0.6629171918689547,cv
+Random Forest Ensemble,attack_success,recall,0.9967305878654512,cv
+Random Forest Ensemble,attack_success,f1,0.7962528050942826,cv
+Random Forest Ensemble,attack_success,roc_auc,0.5037253892640425,cv
+Random Forest Ensemble,attack_success,balanced_accuracy,0.5004653556992482,cv
+Random Forest Ensemble,attack_success,accuracy,1.0,validation
+Random Forest Ensemble,attack_success,balanced_accuracy,1.0,validation
+Random Forest Ensemble,attack_success,precision,1.0,validation
+Random Forest Ensemble,attack_success,recall,1.0,validation
+Random Forest Ensemble,attack_success,f1,1.0,validation
+Random Forest Ensemble,attack_success,roc_auc,1.0,validation
+Random Forest Ensemble,attack_success,accuracy,0.65675,test
+Random Forest Ensemble,attack_success,balanced_accuracy,0.4992059930901009,test
+Random Forest Ensemble,attack_success,precision,0.6580167982950984,test
+Random Forest Ensemble,attack_success,recall,0.9965824947788114,test
+Random Forest Ensemble,attack_success,f1,0.7926608275445485,test
+Random Forest Ensemble,attack_success,roc_auc,0.5156124357064202,test
+Gradient Boosting,attack_success,accuracy,0.6597500000000001,cv
+Gradient Boosting,attack_success,precision,0.6626732432524791,cv
+Gradient Boosting,attack_success,recall,0.9910719899402703,cv
+Gradient Boosting,attack_success,f1,0.794266005256883,cv
+Gradient Boosting,attack_success,roc_auc,0.5059543432583714,cv
+Gradient Boosting,attack_success,balanced_accuracy,0.4999214180708146,cv
+Gradient Boosting,attack_success,accuracy,0.66675,validation
+Gradient Boosting,attack_success,balanced_accuracy,0.5069328778092644,validation
+Gradient Boosting,attack_success,precision,0.6654934003771213,validation
+Gradient Boosting,attack_success,recall,0.9990564257407056,validation
+Gradient Boosting,attack_success,f1,0.7988531763995775,validation
+Gradient Boosting,attack_success,roc_auc,0.6576284991985033,validation
+Gradient Boosting,attack_success,accuracy,0.657875,test
+Gradient Boosting,attack_success,balanced_accuracy,0.5007645169118018,test
+Gradient Boosting,attack_success,precision,0.6587202007528231,test
+Gradient Boosting,attack_success,recall,0.9967723561799886,test
+Gradient Boosting,attack_success,f1,0.7932310946589106,test
+Gradient Boosting,attack_success,roc_auc,0.5038073359027493,test
+XGBoost Gradient Boosted Trees,attack_success,accuracy,0.6627083333333333,cv
+XGBoost Gradient Boosted Trees,attack_success,precision,0.6627083333333333,cv
+XGBoost Gradient Boosted Trees,attack_success,recall,1.0,cv
+XGBoost Gradient Boosted Trees,attack_success,f1,0.7971432151359479,cv
+XGBoost Gradient Boosted Trees,attack_success,roc_auc,0.5031017240840312,cv
+XGBoost Gradient Boosted Trees,attack_success,balanced_accuracy,0.5,cv
+XGBoost Gradient Boosted Trees,attack_success,accuracy,0.662375,validation
+XGBoost Gradient Boosted Trees,attack_success,balanced_accuracy,0.5,validation
+XGBoost Gradient Boosted Trees,attack_success,precision,0.662375,validation
+XGBoost Gradient Boosted Trees,attack_success,recall,1.0,validation
+XGBoost Gradient Boosted Trees,attack_success,f1,0.7969020227084743,validation
+XGBoost Gradient Boosted Trees,attack_success,roc_auc,0.685495730020802,validation
+XGBoost Gradient Boosted Trees,attack_success,accuracy,0.658375,test
+XGBoost Gradient Boosted Trees,attack_success,balanced_accuracy,0.5,test
+XGBoost Gradient Boosted Trees,attack_success,precision,0.658375,test
+XGBoost Gradient Boosted Trees,attack_success,recall,1.0,test
+XGBoost Gradient Boosted Trees,attack_success,f1,0.7940001507499812,test
+XGBoost Gradient Boosted Trees,attack_success,roc_auc,0.5056743758176181,test
+Balanced Logistic Regression,attack_success,accuracy,0.4924166666666666,cv
+Balanced Logistic Regression,attack_success,precision,0.6542786285087405,cv
+Balanced Logistic Regression,attack_success,recall,0.496447657969192,cv
+Balanced Logistic Regression,attack_success,f1,0.5644968455527327,cv
+Balanced Logistic Regression,attack_success,roc_auc,0.4931031784419496,cv
+Balanced Logistic Regression,attack_success,balanced_accuracy,0.490472130405226,cv
+Balanced Logistic Regression,attack_success,accuracy,0.5195,validation
+Balanced Logistic Regression,attack_success,balanced_accuracy,0.5202106898963633,validation
+Balanced Logistic Regression,attack_success,precision,0.6802973977695167,validation
+Balanced Logistic Regression,attack_success,recall,0.5180222683525193,validation
+Balanced Logistic Regression,attack_success,f1,0.5881722734090422,validation
+Balanced Logistic Regression,attack_success,roc_auc,0.5310317853521922,validation
+Balanced Logistic Regression,attack_success,accuracy,0.503125,test
+Balanced Logistic Regression,attack_success,balanced_accuracy,0.5011850185807829,test
+Balanced Logistic Regression,attack_success,precision,0.6594274432379073,test
+Balanced Logistic Regression,attack_success,recall,0.50730966394532,test
+Balanced Logistic Regression,attack_success,f1,0.5734520871338127,test
+Balanced Logistic Regression,attack_success,roc_auc,0.5082792561795788,test
+Decision Tree Classifier,attack_success,accuracy,0.512,cv
+Decision Tree Classifier,attack_success,precision,0.6682941982537163,cv
+Decision Tree Classifier,attack_success,recall,0.5246149009745362,cv
+Decision Tree Classifier,attack_success,f1,0.5839335348836883,cv
+Decision Tree Classifier,attack_success,roc_auc,0.506687289164218,cv
+Decision Tree Classifier,attack_success,balanced_accuracy,0.5059146154038833,cv
+Decision Tree Classifier,attack_success,accuracy,0.660125,validation
+Decision Tree Classifier,attack_success,balanced_accuracy,0.6957935801876375,validation
+Decision Tree Classifier,attack_success,precision,0.8553719008264463,validation
+Decision Tree Classifier,attack_success,recall,0.5859596150217022,validation
+Decision Tree Classifier,attack_success,f1,0.6954866166424012,validation
+Decision Tree Classifier,attack_success,roc_auc,0.798633008582159,validation
+Decision Tree Classifier,attack_success,accuracy,0.484625,test
+Decision Tree Classifier,attack_success,balanced_accuracy,0.5020103911777041,test
+Decision Tree Classifier,attack_success,precision,0.6604038137969714,test
+Decision Tree Classifier,attack_success,recall,0.4471235997721663,test
+Decision Tree Classifier,attack_success,f1,0.5332276689686404,test
+Decision Tree Classifier,attack_success,roc_auc,0.5069436961950816,test
+Random Forest Ensemble,attack_success,accuracy,0.6619583333333334,cv
+Random Forest Ensemble,attack_success,precision,0.6629171918689547,cv
+Random Forest Ensemble,attack_success,recall,0.9967305878654512,cv
+Random Forest Ensemble,attack_success,f1,0.7962528050942826,cv
+Random Forest Ensemble,attack_success,roc_auc,0.5037253892640425,cv
+Random Forest Ensemble,attack_success,balanced_accuracy,0.5004653556992482,cv
+Random Forest Ensemble,attack_success,accuracy,1.0,validation
+Random Forest Ensemble,attack_success,balanced_accuracy,1.0,validation
+Random Forest Ensemble,attack_success,precision,1.0,validation
+Random Forest Ensemble,attack_success,recall,1.0,validation
+Random Forest Ensemble,attack_success,f1,1.0,validation
+Random Forest Ensemble,attack_success,roc_auc,1.0,validation
+Random Forest Ensemble,attack_success,accuracy,0.65675,test
+Random Forest Ensemble,attack_success,balanced_accuracy,0.4992059930901009,test
+Random Forest Ensemble,attack_success,precision,0.6580167982950984,test
+Random Forest Ensemble,attack_success,recall,0.9965824947788114,test
+Random Forest Ensemble,attack_success,f1,0.7926608275445485,test
+Random Forest Ensemble,attack_success,roc_auc,0.5156124357064202,test
+Gradient Boosting,attack_success,accuracy,0.6597500000000001,cv
+Gradient Boosting,attack_success,precision,0.6626732432524791,cv
+Gradient Boosting,attack_success,recall,0.9910719899402703,cv
+Gradient Boosting,attack_success,f1,0.794266005256883,cv
+Gradient Boosting,attack_success,roc_auc,0.5059543432583714,cv
+Gradient Boosting,attack_success,balanced_accuracy,0.4999214180708146,cv
+Gradient Boosting,attack_success,accuracy,0.66675,validation
+Gradient Boosting,attack_success,balanced_accuracy,0.5069328778092644,validation
+Gradient Boosting,attack_success,precision,0.6654934003771213,validation
+Gradient Boosting,attack_success,recall,0.9990564257407056,validation
+Gradient Boosting,attack_success,f1,0.7988531763995775,validation
+Gradient Boosting,attack_success,roc_auc,0.6576284991985033,validation
+Gradient Boosting,attack_success,accuracy,0.657875,test
+Gradient Boosting,attack_success,balanced_accuracy,0.5007645169118018,test
+Gradient Boosting,attack_success,precision,0.6587202007528231,test
+Gradient Boosting,attack_success,recall,0.9967723561799886,test
+Gradient Boosting,attack_success,f1,0.7932310946589106,test
+Gradient Boosting,attack_success,roc_auc,0.5038073359027493,test
+XGBoost Gradient Boosted Trees,attack_success,accuracy,0.6627083333333333,cv
+XGBoost Gradient Boosted Trees,attack_success,precision,0.6627083333333333,cv
+XGBoost Gradient Boosted Trees,attack_success,recall,1.0,cv
+XGBoost Gradient Boosted Trees,attack_success,f1,0.7971432151359479,cv
+XGBoost Gradient Boosted Trees,attack_success,roc_auc,0.5031017240840312,cv
+XGBoost Gradient Boosted Trees,attack_success,balanced_accuracy,0.5,cv
+XGBoost Gradient Boosted Trees,attack_success,accuracy,0.662375,validation
+XGBoost Gradient Boosted Trees,attack_success,balanced_accuracy,0.5,validation
+XGBoost Gradient Boosted Trees,attack_success,precision,0.662375,validation
+XGBoost Gradient Boosted Trees,attack_success,recall,1.0,validation
+XGBoost Gradient Boosted Trees,attack_success,f1,0.7969020227084743,validation
+XGBoost Gradient Boosted Trees,attack_success,roc_auc,0.685495730020802,validation
+XGBoost Gradient Boosted Trees,attack_success,accuracy,0.658375,test
+XGBoost Gradient Boosted Trees,attack_success,balanced_accuracy,0.5,test
+XGBoost Gradient Boosted Trees,attack_success,precision,0.658375,test
+XGBoost Gradient Boosted Trees,attack_success,recall,1.0,test
+XGBoost Gradient Boosted Trees,attack_success,f1,0.7940001507499812,test
+XGBoost Gradient Boosted Trees,attack_success,roc_auc,0.5056743758176181,test

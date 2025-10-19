@@ -1,0 +1,88 @@
+model_id,target,feature,importance
+Gradient Boosting,attack_success,num__Destination Port,0.058740136235257485
+Gradient Boosting,attack_success,num__Timestamp_x_Packet Length,0.058627262772733967
+Gradient Boosting,attack_success,num__Source Port,0.058149109074739316
+Gradient Boosting,attack_success,num__Anomaly Scores,0.05206663594888387
+Gradient Boosting,attack_success,num__Timestamp_div_Source Port,0.0507155708745972
+Gradient Boosting,attack_success,num__Packet Length,0.0504745550339466
+Gradient Boosting,attack_success,num__Source IP Address,0.05040512477179122
+Gradient Boosting,attack_success,num__Timestamp_div_Packet Length,0.049201073842077274
+Gradient Boosting,attack_success,num__Source Port_div_Timestamp,0.047614088159113756
+Gradient Boosting,attack_success,num__Packet Type_div_Timestamp,0.04297390408182931
+Gradient Boosting,attack_success,num__Timestamp_div_Destination Port,0.039138354363765115
+Gradient Boosting,attack_success,num__Destination Port_div_Timestamp,0.036884688766747956
+Gradient Boosting,attack_success,num__Timestamp_x_Source Port,0.036451811843362575
+Gradient Boosting,attack_success,num__Geo-location Data,0.03383157011280818
+Gradient Boosting,attack_success,num__Timestamp,0.03367534375192659
+Gradient Boosting,attack_success,num__Timestamp_x_Packet Type,0.03333182720391195
+Gradient Boosting,attack_success,num__Timestamp_x_Destination Port,0.028238290000639217
+Gradient Boosting,attack_success,num__Packet Length_div_Timestamp,0.02740372206365571
+Gradient Boosting,attack_success,num__Timestamp_div_Packet Type,0.026338360440265562
+Gradient Boosting,attack_success,num__Destination IP Address,0.02430241855094125
+Gradient Boosting,attack_success,num__Second,0.02425844640205552
+Gradient Boosting,attack_success,num__Source IP Address_class,0.02412371555931811
+Gradient Boosting,attack_success,num__Day,0.02224630457433127
+Gradient Boosting,attack_success,num__Proxy Information,0.01813829085538838
+Gradient Boosting,attack_success,num__Minute,0.015527943872992007
+Gradient Boosting,attack_success,num__Destination IP Address_class,0.014126785455534517
+Gradient Boosting,attack_success,num__Hour,0.0140966476107016
+Gradient Boosting,attack_success,num__Month,0.006950475127156708
+Gradient Boosting,attack_success,num__Network Segment_Segment C,0.0037370230228526485
+Gradient Boosting,attack_success,num__DayOfWeek,0.003320020506533018
+Gradient Boosting,attack_success,num__Packet Type,0.002403861150539598
+Gradient Boosting,attack_success,num__Attack Type_Malware,0.002326435156916934
+Gradient Boosting,attack_success,cat__Destination IP Address_type_private_a,0.0019329168096635368
+Gradient Boosting,attack_success,num__Protocol_UDP,0.0013164325839577812
+Gradient Boosting,attack_success,num__IDS/IPS Alerts,0.001198846163175442
+Gradient Boosting,attack_success,num__Attack Type_Intrusion,0.0010854102810099507
+Gradient Boosting,attack_success,num__Device/OS_iPod,0.0010340314859060204
+Gradient Boosting,attack_success,cat__Source IP Address_type_private_b,0.0008288248485228051
+Gradient Boosting,attack_success,num__Device/OS_iPad,0.0007320760808629208
+Gradient Boosting,attack_success,num__Attack Signature,0.0007306029926161229
+Gradient Boosting,attack_success,cat__Destination IP Address_type_private_b,0.0004899422971269753
+Gradient Boosting,attack_success,num__Malware Indicators,0.0004695422663589062
+Gradient Boosting,attack_success,num__Device/OS_Linux,0.00036143048176928466
+Gradient Boosting,attack_success,num__Network Segment_Segment B,1.465217159901503e-07
+Gradient Boosting,attack_success,num__Alerts/Warnings,0.0
+Gradient Boosting,attack_success,num__Year,0.0
+Gradient Boosting,attack_success,num__Firewall Logs,0.0
+Gradient Boosting,attack_success,num__Browser,0.0
+Gradient Boosting,attack_success,num__Log Source,0.0
+Gradient Boosting,attack_success,num__Device/OS_iPhone,0.0
+Gradient Boosting,attack_success,num__Severity Level_Low,0.0
+Gradient Boosting,attack_success,num__Severity Level_Medium,0.0
+Gradient Boosting,attack_success,num__Traffic Type_HTTP,0.0
+Gradient Boosting,attack_success,num__Protocol_TCP,0.0
+Gradient Boosting,attack_success,num__Traffic Type_FTP,0.0
+Gradient Boosting,attack_success,num__Source Port_is_http,0.0
+Gradient Boosting,attack_success,num__month_cos,0.0
+Gradient Boosting,attack_success,num__weekday_cos,0.0
+Gradient Boosting,attack_success,num__month_sin,0.0
+Gradient Boosting,attack_success,num__weekday_sin,0.0
+Gradient Boosting,attack_success,num__hour_cos,0.0
+Gradient Boosting,attack_success,num__quarter,0.0
+Gradient Boosting,attack_success,num__hour_sin,0.0
+Gradient Boosting,attack_success,num__weekday,0.0
+Gradient Boosting,attack_success,num__day,0.0
+Gradient Boosting,attack_success,num__year,0.0
+Gradient Boosting,attack_success,num__month,0.0
+Gradient Boosting,attack_success,num__hour,0.0
+Gradient Boosting,attack_success,num__Device/OS_Macintosh,0.0
+Gradient Boosting,attack_success,num__Device/OS_Windows,0.0
+Gradient Boosting,attack_success,num__Source Port_is_https,0.0
+Gradient Boosting,attack_success,num__Destination Port_is_email,0.0
+Gradient Boosting,attack_success,num__Destination Port_is_ssh,0.0
+Gradient Boosting,attack_success,num__Destination Port_is_database,0.0
+Gradient Boosting,attack_success,num__Source Port_is_email,0.0
+Gradient Boosting,attack_success,num__Source Port_is_database,0.0
+Gradient Boosting,attack_success,num__Destination Port_is_http,0.0
+Gradient Boosting,attack_success,num__Destination Port_is_https,0.0
+Gradient Boosting,attack_success,num__Destination Port_is_ftp,0.0
+Gradient Boosting,attack_success,num__Source Port_is_ftp,0.0
+Gradient Boosting,attack_success,num__Source Port_is_ssh,0.0
+Gradient Boosting,attack_success,cat__Source IP Address_type_private_a,0.0
+Gradient Boosting,attack_success,cat__Source IP Address_type_public,0.0
+Gradient Boosting,attack_success,cat__Destination IP Address_type_public,0.0
+Gradient Boosting,attack_success,cat__IDS/IPS Alerts_type_unknown,0.0
+Gradient Boosting,attack_success,cat__Source Port_category_well_known,0.0
+Gradient Boosting,attack_success,cat__Destination Port_category_well_known,0.0

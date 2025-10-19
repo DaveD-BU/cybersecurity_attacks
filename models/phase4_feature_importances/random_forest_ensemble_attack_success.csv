@@ -1,0 +1,88 @@
+model_id,target,feature,importance
+Random Forest Ensemble,attack_success,num__Anomaly Scores,0.03585223667562366
+Random Forest Ensemble,attack_success,num__Geo-location Data,0.03565563216941154
+Random Forest Ensemble,attack_success,num__Source IP Address,0.035125713631458125
+Random Forest Ensemble,attack_success,num__Destination IP Address,0.0345699429207451
+Random Forest Ensemble,attack_success,num__Destination Port,0.033514667577398405
+Random Forest Ensemble,attack_success,num__Source Port,0.03346295722132315
+Random Forest Ensemble,attack_success,num__Packet Length,0.0332719104267586
+Random Forest Ensemble,attack_success,num__Source IP Address_class,0.03282697543347138
+Random Forest Ensemble,attack_success,num__Destination IP Address_class,0.032485498298565806
+Random Forest Ensemble,attack_success,num__Timestamp_div_Destination Port,0.0321898697523327
+Random Forest Ensemble,attack_success,num__Timestamp_div_Source Port,0.03213178541344132
+Random Forest Ensemble,attack_success,num__Timestamp_x_Packet Length,0.03209409861434672
+Random Forest Ensemble,attack_success,num__Timestamp_div_Packet Length,0.03203307918441738
+Random Forest Ensemble,attack_success,num__Timestamp_x_Destination Port,0.031886913596952726
+Random Forest Ensemble,attack_success,num__Source Port_div_Timestamp,0.0318365976573742
+Random Forest Ensemble,attack_success,num__Timestamp_x_Source Port,0.03176404878858414
+Random Forest Ensemble,attack_success,num__Destination Port_div_Timestamp,0.03149798088143804
+Random Forest Ensemble,attack_success,num__Packet Length_div_Timestamp,0.03123816994397733
+Random Forest Ensemble,attack_success,num__Packet Type_div_Timestamp,0.030733112857923302
+Random Forest Ensemble,attack_success,num__Second,0.030444084286297985
+Random Forest Ensemble,attack_success,num__Minute,0.03020535540000239
+Random Forest Ensemble,attack_success,num__Timestamp_div_Packet Type,0.029550018407252802
+Random Forest Ensemble,attack_success,num__Timestamp_x_Packet Type,0.029450673312172996
+Random Forest Ensemble,attack_success,num__Timestamp,0.028498949286580658
+Random Forest Ensemble,attack_success,num__Day,0.027037056774616864
+Random Forest Ensemble,attack_success,num__Hour,0.025799172285489405
+Random Forest Ensemble,attack_success,num__Proxy Information,0.02209302077436157
+Random Forest Ensemble,attack_success,num__Month,0.0168849522407097
+Random Forest Ensemble,attack_success,num__DayOfWeek,0.016855606793762332
+Random Forest Ensemble,attack_success,num__Firewall Logs,0.005526203057173297
+Random Forest Ensemble,attack_success,num__Malware Indicators,0.005379308141622152
+Random Forest Ensemble,attack_success,num__IDS/IPS Alerts,0.005356506904528414
+Random Forest Ensemble,attack_success,num__Log Source,0.005213660753400271
+Random Forest Ensemble,attack_success,num__Alerts/Warnings,0.0051824126156827
+Random Forest Ensemble,attack_success,num__Attack Signature,0.00512561846924351
+Random Forest Ensemble,attack_success,num__Device/OS_Windows,0.0050273659455027896
+Random Forest Ensemble,attack_success,num__Protocol_UDP,0.004980486846908002
+Random Forest Ensemble,attack_success,num__Severity Level_Medium,0.0049175695111484535
+Random Forest Ensemble,attack_success,num__Severity Level_Low,0.004824738524585013
+Random Forest Ensemble,attack_success,num__Network Segment_Segment C,0.004811169541260449
+Random Forest Ensemble,attack_success,num__Protocol_TCP,0.00481005674319086
+Random Forest Ensemble,attack_success,num__Attack Type_Malware,0.004800118686850041
+Random Forest Ensemble,attack_success,num__Network Segment_Segment B,0.004760536492308013
+Random Forest Ensemble,attack_success,num__Traffic Type_HTTP,0.004741613839590404
+Random Forest Ensemble,attack_success,num__Attack Type_Intrusion,0.00460848140383317
+Random Forest Ensemble,attack_success,num__Traffic Type_FTP,0.004585164629133971
+Random Forest Ensemble,attack_success,num__Device/OS_Linux,0.003952534995880295
+Random Forest Ensemble,attack_success,num__Browser,0.00380379466073938
+Random Forest Ensemble,attack_success,num__Year,0.0034634374757346238
+Random Forest Ensemble,attack_success,num__Packet Type,0.003339691385941739
+Random Forest Ensemble,attack_success,num__Device/OS_Macintosh,0.0031450925652392304
+Random Forest Ensemble,attack_success,num__Device/OS_iPod,0.0018222415027793453
+Random Forest Ensemble,attack_success,num__Device/OS_iPhone,0.0011518084285850637
+Random Forest Ensemble,attack_success,num__Device/OS_iPad,0.0011452556089826444
+Random Forest Ensemble,attack_success,num__weekday_cos,0.0010602579816994355
+Random Forest Ensemble,attack_success,num__hour,0.0010556630588227402
+Random Forest Ensemble,attack_success,num__weekday,0.0010465873366583786
+Random Forest Ensemble,attack_success,num__hour_sin,0.0010357545882791741
+Random Forest Ensemble,attack_success,num__month_cos,0.001030282251820047
+Random Forest Ensemble,attack_success,num__day,0.0010191575524775098
+Random Forest Ensemble,attack_success,num__hour_cos,0.0010089033056882228
+Random Forest Ensemble,attack_success,num__weekday_sin,0.0009999358918949305
+Random Forest Ensemble,attack_success,num__year,0.000998749812467103
+Random Forest Ensemble,attack_success,num__month_sin,0.000995042499624488
+Random Forest Ensemble,attack_success,num__month,0.0009811951896502244
+Random Forest Ensemble,attack_success,num__quarter,0.0009416259652491958
+Random Forest Ensemble,attack_success,cat__Destination IP Address_type_private_a,0.0001038254938190953
+Random Forest Ensemble,attack_success,cat__Source IP Address_type_public,9.562740960193921e-05
+Random Forest Ensemble,attack_success,cat__Destination IP Address_type_public,8.197364447914339e-05
+Random Forest Ensemble,attack_success,cat__Source IP Address_type_private_a,7.382387831936457e-05
+Random Forest Ensemble,attack_success,cat__Source IP Address_type_private_b,4.086891003842519e-06
+Random Forest Ensemble,attack_success,cat__Destination IP Address_type_private_b,2.557911811143745e-06
+Random Forest Ensemble,attack_success,num__Source Port_is_http,0.0
+Random Forest Ensemble,attack_success,num__Destination Port_is_database,0.0
+Random Forest Ensemble,attack_success,num__Destination Port_is_ssh,0.0
+Random Forest Ensemble,attack_success,num__Destination Port_is_email,0.0
+Random Forest Ensemble,attack_success,num__Destination Port_is_http,0.0
+Random Forest Ensemble,attack_success,num__Destination Port_is_https,0.0
+Random Forest Ensemble,attack_success,num__Destination Port_is_ftp,0.0
+Random Forest Ensemble,attack_success,num__Source Port_is_ftp,0.0
+Random Forest Ensemble,attack_success,num__Source Port_is_ssh,0.0
+Random Forest Ensemble,attack_success,num__Source Port_is_https,0.0
+Random Forest Ensemble,attack_success,num__Source Port_is_email,0.0
+Random Forest Ensemble,attack_success,num__Source Port_is_database,0.0
+Random Forest Ensemble,attack_success,cat__IDS/IPS Alerts_type_unknown,0.0
+Random Forest Ensemble,attack_success,cat__Source Port_category_well_known,0.0
+Random Forest Ensemble,attack_success,cat__Destination Port_category_well_known,0.0

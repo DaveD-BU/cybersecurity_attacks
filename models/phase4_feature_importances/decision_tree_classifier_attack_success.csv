@@ -1,0 +1,88 @@
+model_id,target,feature,importance
+Decision Tree Classifier,attack_success,num__Anomaly Scores,0.05232384577169614
+Decision Tree Classifier,attack_success,num__Geo-location Data,0.0476534507580568
+Decision Tree Classifier,attack_success,num__Source IP Address,0.04298879483120612
+Decision Tree Classifier,attack_success,num__Destination Port,0.04283841034182849
+Decision Tree Classifier,attack_success,num__Timestamp_div_Destination Port,0.040027633791200425
+Decision Tree Classifier,attack_success,num__Source Port,0.03950829113783801
+Decision Tree Classifier,attack_success,num__Destination IP Address_class,0.037024341395398765
+Decision Tree Classifier,attack_success,num__Source IP Address_class,0.036990802511868245
+Decision Tree Classifier,attack_success,num__Destination IP Address,0.03604537343696636
+Decision Tree Classifier,attack_success,num__Timestamp_div_Source Port,0.035272601748388685
+Decision Tree Classifier,attack_success,num__Timestamp_div_Packet Length,0.03497135816265652
+Decision Tree Classifier,attack_success,num__Minute,0.034889934090429515
+Decision Tree Classifier,attack_success,num__Timestamp_x_Packet Length,0.03301823685968333
+Decision Tree Classifier,attack_success,num__Second,0.03227224143812548
+Decision Tree Classifier,attack_success,num__Timestamp,0.03140852201263858
+Decision Tree Classifier,attack_success,num__Source Port_div_Timestamp,0.03065227313813959
+Decision Tree Classifier,attack_success,num__Hour,0.029851945202298006
+Decision Tree Classifier,attack_success,num__Destination Port_div_Timestamp,0.029461062104161034
+Decision Tree Classifier,attack_success,num__Proxy Information,0.028330567504384147
+Decision Tree Classifier,attack_success,num__Packet Length_div_Timestamp,0.028282320527678456
+Decision Tree Classifier,attack_success,num__Timestamp_x_Source Port,0.026686555022392717
+Decision Tree Classifier,attack_success,num__Packet Type_div_Timestamp,0.026239323211221948
+Decision Tree Classifier,attack_success,num__Timestamp_x_Destination Port,0.025543440229950747
+Decision Tree Classifier,attack_success,num__Timestamp_x_Packet Type,0.025393572688672268
+Decision Tree Classifier,attack_success,num__Timestamp_div_Packet Type,0.02327016306763065
+Decision Tree Classifier,attack_success,num__Packet Length,0.022864944333370895
+Decision Tree Classifier,attack_success,num__DayOfWeek,0.018765268037677262
+Decision Tree Classifier,attack_success,num__Day,0.017228865145295213
+Decision Tree Classifier,attack_success,num__Month,0.011401694911367659
+Decision Tree Classifier,attack_success,num__Traffic Type_HTTP,0.007533564445226572
+Decision Tree Classifier,attack_success,num__Device/OS_Windows,0.0059177557457475655
+Decision Tree Classifier,attack_success,num__Severity Level_Medium,0.00588814730383116
+Decision Tree Classifier,attack_success,num__Attack Type_Malware,0.0047316746676925765
+Decision Tree Classifier,attack_success,num__Attack Type_Intrusion,0.004661305038576625
+Decision Tree Classifier,attack_success,num__Log Source,0.004396543846847221
+Decision Tree Classifier,attack_success,num__Protocol_UDP,0.004041512891131711
+Decision Tree Classifier,attack_success,num__Severity Level_Low,0.0038914801883860738
+Decision Tree Classifier,attack_success,num__Protocol_TCP,0.003791969464750596
+Decision Tree Classifier,attack_success,num__Attack Signature,0.0034313106120567737
+Decision Tree Classifier,attack_success,num__Firewall Logs,0.003324186096429712
+Decision Tree Classifier,attack_success,num__Alerts/Warnings,0.0032943796187126046
+Decision Tree Classifier,attack_success,num__Traffic Type_FTP,0.0030803093325042865
+Decision Tree Classifier,attack_success,num__Network Segment_Segment C,0.0028109205148424752
+Decision Tree Classifier,attack_success,num__Malware Indicators,0.002796734172494409
+Decision Tree Classifier,attack_success,num__Network Segment_Segment B,0.0027763429234274302
+Decision Tree Classifier,attack_success,num__IDS/IPS Alerts,0.0026946717960949305
+Decision Tree Classifier,attack_success,num__Browser,0.002453306392941491
+Decision Tree Classifier,attack_success,num__Device/OS_Macintosh,0.0022699673284846305
+Decision Tree Classifier,attack_success,num__Packet Type,0.0014422390824320858
+Decision Tree Classifier,attack_success,num__Device/OS_iPod,0.0012688792126148364
+Decision Tree Classifier,attack_success,num__Year,0.0010246396996953402
+Decision Tree Classifier,attack_success,num__weekday_sin,0.0006921283830188508
+Decision Tree Classifier,attack_success,num__Device/OS_Linux,0.000417908326810539
+Decision Tree Classifier,attack_success,num__day,0.00016228950302733715
+Decision Tree Classifier,attack_success,num__weekday,1.111158930888789e-16
+Decision Tree Classifier,attack_success,num__hour,2.040402461587821e-17
+Decision Tree Classifier,attack_success,num__year,7.211060908422819e-18
+Decision Tree Classifier,attack_success,num__quarter,1.6416160258454463e-18
+Decision Tree Classifier,attack_success,num__weekday_cos,8.35827514385372e-19
+Decision Tree Classifier,attack_success,num__month,0.0
+Decision Tree Classifier,attack_success,num__hour_sin,0.0
+Decision Tree Classifier,attack_success,num__Device/OS_iPad,0.0
+Decision Tree Classifier,attack_success,num__Device/OS_iPhone,0.0
+Decision Tree Classifier,attack_success,num__Source Port_is_http,0.0
+Decision Tree Classifier,attack_success,num__month_cos,0.0
+Decision Tree Classifier,attack_success,num__hour_cos,0.0
+Decision Tree Classifier,attack_success,num__month_sin,0.0
+Decision Tree Classifier,attack_success,num__Destination Port_is_ftp,0.0
+Decision Tree Classifier,attack_success,num__Source Port_is_https,0.0
+Decision Tree Classifier,attack_success,num__Source Port_is_ssh,0.0
+Decision Tree Classifier,attack_success,num__Source Port_is_ftp,0.0
+Decision Tree Classifier,attack_success,num__Destination Port_is_email,0.0
+Decision Tree Classifier,attack_success,num__Destination Port_is_ssh,0.0
+Decision Tree Classifier,attack_success,num__Destination Port_is_database,0.0
+Decision Tree Classifier,attack_success,num__Source Port_is_email,0.0
+Decision Tree Classifier,attack_success,num__Source Port_is_database,0.0
+Decision Tree Classifier,attack_success,num__Destination Port_is_http,0.0
+Decision Tree Classifier,attack_success,num__Destination Port_is_https,0.0
+Decision Tree Classifier,attack_success,cat__Source IP Address_type_private_a,0.0
+Decision Tree Classifier,attack_success,cat__Source IP Address_type_private_b,0.0
+Decision Tree Classifier,attack_success,cat__Source IP Address_type_public,0.0
+Decision Tree Classifier,attack_success,cat__Destination IP Address_type_private_a,0.0
+Decision Tree Classifier,attack_success,cat__Destination IP Address_type_private_b,0.0
+Decision Tree Classifier,attack_success,cat__Destination IP Address_type_public,0.0
+Decision Tree Classifier,attack_success,cat__IDS/IPS Alerts_type_unknown,0.0
+Decision Tree Classifier,attack_success,cat__Source Port_category_well_known,0.0
+Decision Tree Classifier,attack_success,cat__Destination Port_category_well_known,0.0
